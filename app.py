@@ -16,7 +16,7 @@ norm.index = norm.Activity
 st.sidebar.header("Who are you and what did you do? 🤓")
 
 level = st.sidebar.selectbox('Select your level?', ['Senior','Junior'])
-activities = st.sidebar.multiselect("What did you do?", norm['Activity'].unique(), default=norm['Activity'].unique() )
+activities = st.sidebar.multiselect("What did you do?", norm['Activity'].unique() )
 
 hours = []
 for i in range(len(activities)):
