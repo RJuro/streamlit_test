@@ -30,6 +30,7 @@ hours_cours = sum(norm.loc[activities,level].values * np.array(hours))
 
 '''
 # Calculating some hours 🧮️
+## aka. deBJARNEfy
 
 '''
 
